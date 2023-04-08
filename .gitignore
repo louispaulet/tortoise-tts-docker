@@ -1,6 +1,7 @@
 # Ignore all .pth and .wav files
 *.pth
 *.wav
+*.pt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
