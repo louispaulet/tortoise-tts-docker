@@ -1,0 +1,16 @@
+services:
+  tortoise-tts:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/data
+      - ./output:/output
+    stop_signal: SIGINT
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['0']
+              capabilities: [gpu]
