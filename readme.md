@@ -25,8 +25,8 @@ Tortoise TTS Fast is a high-performance Text-to-Speech (TTS) application that ge
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/152334H/tortoise-tts-fast.git
-cd tortoise-tts-fast
+git clone https://github.com/louispaulet/tortoise-tts-docker.git
+cd tortoise-tts-docker
 ```
 
 ### Build and Run the Docker Container
